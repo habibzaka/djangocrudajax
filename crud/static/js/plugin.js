@@ -23,7 +23,7 @@ $(document).ready(function(){
 			dataType: 'json',
 			success: function(data){
 				if(data.form_is_valid){
-					$('#book-table tbody').html(data.book_list);
+					$('#user-table tbody').html(data.user_list);
 					$('#modal-user').modal('hide');
 				} else {
 					$('#modal-user .modal-content').html(data.html_form)
