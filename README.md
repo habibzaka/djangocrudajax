@@ -1,2 +1,2 @@
-# CRUD-System
-CRUD system using Django and Ajax
+
+Web application sing Django, Ajax, Boostrap ...
