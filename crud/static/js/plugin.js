@@ -6,10 +6,10 @@ $(document).ready(function(){
 			type: 'get',
 			dataType:'json',
 			beforeSend: function(){
-				$('#modal-book').modal('show');
+				$('#modal-user').modal('show');
 			},
 			success: function(data){
-				$('#modal-book .modal-content').html(data.html_form);
+				$('#modal-user .modal-content').html(data.html_form);
 			}
 		});
 	};
@@ -24,9 +24,9 @@ $(document).ready(function(){
 			success: function(data){
 				if(data.form_is_valid){
 					$('#book-table tbody').html(data.book_list);
-					$('#modal-book').modal('hide');
+					$('#modal-user').modal('hide');
 				} else {
-					$('#modal-book .modal-content').html(data.html_form)
+					$('#modal-user .modal-content').html(data.html_form)
 				}
 			}
 		})
@@ -34,7 +34,7 @@ $(document).ready(function(){
 	}
 
 //update
-$('#book-table').on("click",".show-form-update",ShowForm);
-$('#modal-book').on("submit",".update-form",SaveForm)
+$('#user-table').on("click",".show-form-update",ShowForm);
+$('#modal-user').on("submit",".update-form",SaveForm)
 
 });
