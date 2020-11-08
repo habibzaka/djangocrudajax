@@ -2,7 +2,7 @@
 
 Web application using Django, Ajax, Boostrap ...
 
-DEMO : https://www.youtube.com/watch?v=T6uwev5UmiA&feature=youtu.be
+DEMO : https://youtu.be/PgoFQ3YgU_o
 
 DOCKER : https://hub.docker.com/repository/docker/habibzakaria/my_website
 
