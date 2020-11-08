@@ -1,6 +1,7 @@
 ## Django Crud, Ajax, Login, Register,Dashboard Etc
 
 Web application using Django, Ajax, Boostrap ...
+
 DEMO : https://www.youtube.com/watch?v=T6uwev5UmiA&feature=youtu.be
 
 ## Step for Set Up
