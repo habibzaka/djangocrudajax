@@ -16,7 +16,7 @@ Web application using Django, Ajax, Boostrap ...
  
  ## Screenshots
  
-
+![Capture](https://user-images.githubusercontent.com/17393730/98456557-6260b400-217f-11eb-9aa6-4662dec58779.PNG)
 ![Register account](https://user-images.githubusercontent.com/17393730/98456540-33e2d900-217f-11eb-8a9b-f361ccafbbec.PNG)
 ![Login](https://user-images.githubusercontent.com/17393730/98456542-347b6f80-217f-11eb-9047-86fbc674288d.PNG)
  ![Modify_info](https://user-images.githubusercontent.com/17393730/98456538-334a4280-217f-11eb-8e4c-60d66d44282a.PNG)
