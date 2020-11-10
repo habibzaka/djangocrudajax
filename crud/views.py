@@ -2,7 +2,7 @@ from django.shortcuts import render,get_object_or_404, redirect
 from django.http import JsonResponse
 from django.template.loader import render_to_string
 from django.http import HttpResponse
-# Create your views here.
+# Create your views here.  // delete comment
 from django.contrib.auth.forms import UserCreationForm
 from .forms import *
 from django.contrib.auth import authenticate, login, logout
